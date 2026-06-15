@@ -7,6 +7,8 @@
 
     <xacro:include filename = "lidar.xacro"/>
 
-    <xacro:include filename = "camera.xacro"/>
+    <!-- <xacro:include filename = "camera.xacro"/>  remove comment if using depth camera... -->
+
+    <xacro:include filename = "depth_camera.xacro"/>
 
 </robot>
