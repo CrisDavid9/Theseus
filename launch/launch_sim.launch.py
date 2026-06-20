@@ -43,7 +43,7 @@ def generate_launch_description():
         arguments=["joint_broad"]
     )
 
-    delay_controller_spawners = TimerAction (
+    delay_controller_spawners = TimerAction(
         period=2.0,
         actions=[diff_drive_spawner, joint_broad_spawner]
     )
