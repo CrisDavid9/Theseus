@@ -7,7 +7,7 @@
         <visual>
             <origin xyz = "0 0 0" rpy = "0 0 0"/>
             <geometry>
-                <box size = "0.010 0.03 0.03"/>
+                <box size = "0.020 0.072 0.032"/>
             </geometry>
             <material name = "red"/>
         </visual>
@@ -44,7 +44,7 @@
     <joint name = "camera_joint" type = "fixed">
         <parent link = "chassis"/>
         <child link = "camera_link"/>
-        <origin xyz = "0.305 0 0.08" rpy = "0 0 0"/>
+        <origin xyz = "0.201 0 0.075" rpy = "0 0 0"/>
     </joint>
 
     <!-- Camera Optical Link -->
