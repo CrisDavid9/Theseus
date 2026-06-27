@@ -152,27 +152,27 @@
         <axis xyz = " 0 0 -1"/>
     </joint>
 
-    <!-- Caster Front Wheel Link -->
+    <!-- Caster Back Wheel Link -->
 
-    <link name = "caster_front">
+    <link name = "caster_back">
         <visual>
             <origin xyz = "0 0 0"/>
             <geometry>
-                <sphere radius = "0.015"/>
+                <sphere radius = "0.025"/>
             </geometry>
             <material name = "white"/>
         </visual>
         <collision>
             <geometry>
-                <sphere radius = "0.015"/>
+                <sphere radius = "0.025"/>
             </geometry>
         </collision>
-        <xacro:inertial_sphere mass = "0.1" radius = "0.015">
+        <xacro:inertial_sphere mass = "0.1" radius = "0.025">
             <origin xyz = "0 0 0" rpy = "0 0 0"/>
         </xacro:inertial_sphere>
     </link>
 
-    <gazebo reference = "caster_front">
+    <gazebo reference = "caster_back">
         <material> 
             Gazebo/White 
         </material>
@@ -180,12 +180,12 @@
         <mu2 value = "0.001"/>
     </gazebo>
 
-    <!-- Caster Front Wheel Joint -->
+    <!-- Caster Back Wheel Joint -->
 
-    <joint name = "caster_front_wheel" type = "fixed">
+    <joint name = "caster_back_wheel" type = "fixed">
         <parent link = "chassis"/>
-        <child link = "caster_front"/>
-        <origin xyz = "-0.022 0 -0.01"/>
+        <child link = "caster_back"/>
+        <origin xyz = "-0.022 0 -0.009"/>
     </joint>
 
 </robot>

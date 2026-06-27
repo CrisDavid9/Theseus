@@ -8,9 +8,9 @@ def generate_launch_description():
     return LaunchDescription([
 
         Node (
-            package='412_camera',
-            executable='v412_camera_node',
+            package='usb_cam',
+            executable='usb_cam_node_exe',
             output='screen',
-            parameters=[{'image_size': [640,480], 'camera_frame_id': 'camera_link_optical'}]
+            parameters=[{'image_wdith': 640, 'image_height': 480, 'camera_frame_id': 'camera_link_optical'}]
         )
     ])
