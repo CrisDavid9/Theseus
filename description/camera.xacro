@@ -44,7 +44,7 @@
     <joint name = "camera_joint" type = "fixed">
         <parent link = "chassis"/>
         <child link = "camera_link"/>
-        <origin xyz = "0.240 0 0.080" rpy = "0 0 0"/>
+        <origin xyz = "0.260 0 0.080" rpy = "0 0 0"/>
     </joint>
 
     <!-- Camera Optical Link -->
