@@ -86,17 +86,17 @@
         <visual>
             <origin xyz = "0 0 0"/>
             <geometry>
-                <cylinder radius = "0.03375" length = "0.026"/>
+                <cylinder radius = "0.09704" length = "0.026"/>
             </geometry>
             <material name = "orange"/>
         </visual>
         <collision>
             <origin xyz = "0 0 0"/>
             <geometry>
-                <sphere radius = "0.03375"/>
+                <sphere radius = "0.09704"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass = "0.1" length = "0.026" radius = "0.03375">
+        <xacro:inertial_cylinder mass = "0.1" length = "0.026" radius = "0.09704">
             <origin xyz = "0 0 0" rpy = "0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
@@ -122,17 +122,17 @@
         <visual>
             <origin xyz = "0 0 0"/>
             <geometry>
-                <cylinder radius = "0.03375" length = "0.026"/>
+                <cylinder radius = "0.09704" length = "0.026"/>
             </geometry>
             <material name = "orange"/>
         </visual>
         <collision>
             <origin xyz = "0 0 0"/>
             <geometry>
-                <sphere radius = "0.03375"/>
+                <sphere radius = "0.09704"/>
             </geometry>
         </collision>
-        <xacro:inertial_cylinder mass = "0.1" length = "0.026" radius = "0.03375">
+        <xacro:inertial_cylinder mass = "0.1" length = "0.026" radius = "0.09704">
             <origin xyz = "0 0 0" rpy = "0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
@@ -158,16 +158,16 @@
         <visual>
             <origin xyz = "0 0 0"/>
             <geometry>
-                <sphere radius = "0.025"/>
+                <sphere radius = "0.09704"/>
             </geometry>
             <material name = "white"/>
         </visual>
         <collision>
             <geometry>
-                <sphere radius = "0.025"/>
+                <sphere radius = "0.09704"/>
             </geometry>
         </collision>
-        <xacro:inertial_sphere mass = "0.1" radius = "0.025">
+        <xacro:inertial_sphere mass = "0.1" radius = "0.09704">
             <origin xyz = "0 0 0" rpy = "0 0 0"/>
         </xacro:inertial_sphere>
     </link>
@@ -194,16 +194,16 @@
         <visual>
             <origin xyz = "0 0 0"/>
             <geometry>
-                <sphere radius = "0.025"/>
+                <sphere radius = "0.09704"/>
             </geometry>
             <material name = "white"/>
         </visual>
         <collision>
             <geometry>
-                <sphere radius = "0.025"/>
+                <sphere radius = "0.09704"/>
             </geometry>
         </collision>
-        <xacro:inertial_sphere mass = "0.1" radius = "0.025">
+        <xacro:inertial_sphere mass = "0.1" radius = "0.09704">
             <origin xyz = "0 0 0" rpy = "0 0 0"/>
         </xacro:inertial_sphere>
     </link>
