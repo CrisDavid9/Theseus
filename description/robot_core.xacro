@@ -158,16 +158,16 @@
         <visual>
             <origin xyz = "0 0 0"/>
             <geometry>
-                <sphere radius = "0.09704"/>
+                <sphere radius = "0.025"/>
             </geometry>
             <material name = "white"/>
         </visual>
         <collision>
             <geometry>
-                <sphere radius = "0.09704"/>
+                <sphere radius = "0.025"/>
             </geometry>
         </collision>
-        <xacro:inertial_sphere mass = "0.1" radius = "0.09704">
+        <xacro:inertial_sphere mass = "0.1" radius = "0.025">
             <origin xyz = "0 0 0" rpy = "0 0 0"/>
         </xacro:inertial_sphere>
     </link>
@@ -185,7 +185,7 @@
     <joint name = "caster_back_wheel" type = "fixed">
         <parent link = "chassis"/>
         <child link = "caster_back"/>
-        <origin xyz = "0.025 0 -0.009"/>
+        <origin xyz = "0.025 0 -0.07204"/>
     </joint>
 
     <!-- Caster Front Wheel Link -->
@@ -194,16 +194,16 @@
         <visual>
             <origin xyz = "0 0 0"/>
             <geometry>
-                <sphere radius = "0.09704"/>
+                <sphere radius = "0.025"/>
             </geometry>
             <material name = "white"/>
         </visual>
         <collision>
             <geometry>
-                <sphere radius = "0.09704"/>
+                <sphere radius = "0.025"/>
             </geometry>
         </collision>
-        <xacro:inertial_sphere mass = "0.1" radius = "0.09704">
+        <xacro:inertial_sphere mass = "0.1" radius = "0.025">
             <origin xyz = "0 0 0" rpy = "0 0 0"/>
         </xacro:inertial_sphere>
     </link>
@@ -221,7 +221,7 @@
     <joint name = "caster_front_wheel" type = "fixed">
         <parent link = "chassis"/>
         <child link = "caster_front"/>
-        <origin xyz = "0.225 0 -0.009"/>
+        <origin xyz = "0.225 0 -0.07204"/>
     </joint>
 
 </robot>
